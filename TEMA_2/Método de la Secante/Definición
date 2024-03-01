@@ -1,0 +1,2 @@
+Un posible inconveniente en el método de Newton Raphson es implementar la evaluación de la derivada. La derivada también 
+se puede aproximar mediante una diferencia finita dividida hacia atrás:
