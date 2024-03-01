@@ -1,0 +1,29 @@
+# Algoritmo Posicion Falsa para raices
+
+import numpy as np
+
+
+fx = lambda x: x**3 + 4*x**2 - 10
+
+a = 1
+b = 2
+tolera = 0.001
+
+
+tramo = abs(b-a)
+while not(tramo<=tolera):
+    fa = fx(a)
+    fb = fx(b)
+    c = b - fb*(a-b)/(fa-fb)
+    fc = fx(c)
+    cambia = np.sign(fa)*np.sign(fc)
+    if (cambia > 0):
+        tramo = abs(c-a)
+        a = c
+    else:
+        tramo = abs(b-c)
+        b = c
+raiz = c
+
+
+print(raiz)
