@@ -1,0 +1,8 @@
+El método se basa en el teorema del valor intermedio, conocido como método de la bisección, búsqueda binaria, partición de intervalos o de Bolzano.
+
+Es un tipo de búsqueda incremental en el que:
+
+- El intervalo se divide siempre en la mitad.
+- Si la función cambia de signo sobre un intervalo, se evalúa el valor de la función en el punto medio.
+- La posición de la raíz se determina en el punto medio del sub-intervalo, izquierdo o derecho,  dentro del cual ocurre un cambio de signo.
+- El proceso se repite hasta obtener una mejor aproximación.
