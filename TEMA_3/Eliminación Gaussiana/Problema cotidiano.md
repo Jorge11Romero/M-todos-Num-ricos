@@ -12,7 +12,8 @@ Supongamos que tienes el siguiente sistema de ecuaciones lineales para un circui
 Dando como resultado:
 
 
-![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/143edd89-127d-4033-972f-a558384f5144)
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/d4f5f88d-79d0-4c66-b5c9-2b799c22d133)
+
 
 
 Programa en ejecución:
