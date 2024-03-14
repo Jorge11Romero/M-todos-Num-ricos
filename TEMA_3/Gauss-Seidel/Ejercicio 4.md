@@ -1,95 +1,104 @@
-Ejercicio 1: Resuleve la siguiente ecuación
+Ejercicio 4: Resuleve la siguiente ecuación
 
-image
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/3b0a1a49-be6f-45f3-8f42-5a10d1ad0f60)
+
 
 Resultado:
 
-image
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/d17a1ab8-5e0f-4388-a44d-b99ff59f8d7d)
+
 
 Resueltado por código en JAVA:
 
-public static void main(String[] args) {
+    import java.util.Arrays;
+    import java.util.Scanner;
     
-     // PASO 1: Definir nuestra matriz o nuestro vector
-    double[][] A = {{1,2,1},
-                    {1,0,1},
-                    {0,1,2}};
+    public class Gauss_Seidel {
     
-    double[][] B = {{0},
-                    {2},
-                    {1}};
-    
-    // Copiamos las matrices originales y las hacemos de tipo flotante
-    double[][] A_copy = new double[A.length][A[0].length];
-    double[][] B_copy = new double[B.length][B[0].length];
-    
-    for (int i = 0; i < A.length; i++) {
-        A_copy[i] = Arrays.copyOf(A[i], A[i].length);
-        B_copy[i] = Arrays.copyOf(B[i], B[i].length);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+    // Pedir al usuario el tamaño del sistema de ecuaciones
+    System.out.print("Ingrese el número de ecuaciones: ");
+    int n = scanner.nextInt();
+
+    // Crear matrices para almacenar los coeficientes y los términos independientes
+    double[][] coeficientes = new double[n][n];
+    double[] b = new double[n];
+
+    // Pedir al usuario los coeficientes y términos independientes
+    System.out.println("Ingrese los coeficientes de las ecuaciones:");
+    for (int i = 0; i < n; i++) {
+        System.out.printf("Ecuación %d:\n", i + 1);
+        for (int j = 0; j < n; j++) {
+            System.out.printf("Coeficiente %d: ", j + 1);
+            coeficientes[i][j] = scanner.nextDouble();
+        }
+        System.out.print("Término independiente: ");
+        b[i] = scanner.nextDouble();
+    }
+
+    // Pedir al usuario el porcentaje de error aceptado
+    System.out.print("Ingrese el porcentaje de error aceptado: ");
+    double error = scanner.nextDouble();
+
+    // Llamar al método GaussSeidel para calcular los resultados
+    double[] resultados = gaussSeidel(coeficientes, b, error);
+
+    // Imprimir los resultados
+    System.out.println("Resultados:");
+    for (int i = 0; i < n; i++) {
+        System.out.printf("x%d = %.4f\n", i + 1, resultados[i]);
+    }
+
+    scanner.close();
     }
     
-    // Se calcula el tamaño del vector
-    int N = B.length;
-    
-    // Se recorre la matriz
-    for (int i = 0; i < N; i++) {
-        // Normalización
-        double pivot = A_copy[i][i];
-        System.out.println("Mi pivote es: " + pivot);
-        for (int j = 0; j < A_copy[i].length; j++) {
-            A_copy[i][j] /= pivot;
-        }
-        B_copy[i][0] /= pivot;
-        System.out.println("\nSe divide el renglon por el pivote:");
-        printMatrix(A_copy);
-        System.out.println("\nSe divide el vector por el pivote:");
-        printMatrix(B_copy);
-        
-        // Eliminación hacia adelante
-        for (int j = i + 1; j < N; j++) {
-            double factor = A_copy[j][i];
-            System.out.println("\nConvertir en cero la matriz");
-            System.out.println(factor);
-            for (int k = 0; k < A_copy[j].length; k++) {
-                A_copy[j][k] -= factor * A_copy[i][k];
+    // Método para el cálculo de los resultados mediante el método de Gauss-Seidel
+    public static double[] gaussSeidel(double[][] coeficientes, double[] b, double error) {
+        int n = b.length;
+        double[] resultados = new double[n];
+        double[] nuevosResultados = new double[n];
+        double[] errores = new double[n];
+        double maxError;
+
+    // Inicializar los resultados
+    for (int i = 0; i < n; i++) {
+        resultados[i] = 0; // Suponer todos los resultados iniciales como 0
+    }
+
+    // Iterar hasta que se alcance el error deseado
+    do {
+        // Calcular los nuevos resultados
+        for (int i = 0; i < n; i++) {
+            double sum = 0;
+            for (int j = 0; j < n; j++) {
+                if (j != i) {
+                    sum += coeficientes[i][j] * resultados[j];
+                }
             }
-            B_copy[j][0] -= factor * B_copy[i][0];
-            printMatrix(A_copy);
-            printMatrix(B_copy);
+            nuevosResultados[i] = (b[i] - sum) / coeficientes[i][i];
         }
-    }
-    
-    // Sustitución hacia atrás
-    double[] x = new double[N];
-    for (int i = N - 1; i >= 0; i--) {
-        System.out.println("\nIteracion " + i);
-        System.out.println("B_copy[" + i + "]: " + B_copy[i][0]);
-        System.out.println("A_copy[" + i + ", " + (i+1) + ":]: " + Arrays.toString(Arrays.copyOfRange(A_copy[i], i+1, A_copy[i].length)));
-        System.out.println("x[" + (i+1) + ":]: " + Arrays.toString(Arrays.copyOfRange(x, i+1, x.length)));
-        x[i] = B_copy[i][0];
-        for (int j = i + 1; j < N; j++) {
-            x[i] -= A_copy[i][j] * x[j];
+
+        // Calcular el error de cada resultado
+        maxError = 0;
+        for (int i = 0; i < n; i++) {
+            errores[i] = Math.abs((nuevosResultados[i] - resultados[i]) / nuevosResultados[i]);
+            if (errores[i] > maxError) {
+                maxError = errores[i];
+            }
         }
-        System.out.println("x[" + i + "]: " + x[i]);
-    }
-    
-    // Resultados
-    System.out.println("\nMatriz A triangularizada:");
-    printMatrix(A_copy);
-    System.out.println("\nVector B triangularizado:");
-    printMatrix(B_copy);
-    System.out.println("\nSolucion:");
-    System.out.println(Arrays.toString(x));
-}
 
-public static void printMatrix(double[][] matrix) {
-    for (double[] row : matrix) {
-        System.out.println(Arrays.toString(row));
-    }
-    
-}
-}
+        // Actualizar los resultados con los nuevos resultados
+        System.arraycopy(nuevosResultados, 0, resultados, 0, n);
 
+    } while (maxError > error);
+
+        return resultados;
+    }
+    }
+
+    
 Respuesta por código:
 
-image
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/9e4de426-a38c-4c4e-a964-75be11fc3666)
