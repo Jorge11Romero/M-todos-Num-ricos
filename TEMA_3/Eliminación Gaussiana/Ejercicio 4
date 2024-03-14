@@ -1,4 +1,4 @@
-Ejercicio 3: Resuleve la siguiente ecuación
+Ejercicio 4: Resuleve la siguiente ecuación
    
   |  5x + 2y +      = 2
 --|  2x +  y -   z  = 0
@@ -21,13 +21,13 @@ public class EliminacionGaussiana {
     public static void main(String[] args) {
         
          // PASO 1: Definir nuestra matriz o nuestro vector
-        double[][] A = {{1,2,1},
-                        {1,0,1},
-                        {0,1,2}};
+        double[][] A = {{5,2,0},
+                        {2,1,1},
+                        {2,3,1}};
         
-        double[][] B = {{0},
-                        {2},
-                        {1}};
+        double[][] B = {{2},
+                        {0},
+                        {3}};
         
         // Copiamos las matrices originales y las hacemos de tipo flotante
         double[][] A_copy = new double[A.length][A[0].length];
@@ -104,4 +104,4 @@ public class EliminacionGaussiana {
 Respuesta por código:
 
 Solucion:
-[1.0, -1.0, 1.0]
+[-0.19999999999999962, 1.4999999999999991, -1.0999999999999999]
