@@ -1,6 +1,20 @@
-Ejercicio 1: 
+Ejercicio 1: Resuleve la siguiente ecuación
+   
+  |   x + 2y +   z  = 0
+--|   x +    +   z  = 2
+  |     +  y    2z  = 1
+
+Resultado: 
+
+x = 1
+y = -1
+z = 1 
+
+
+Resueltado por código en JAVA:
 
 import java.util.Arrays;
+
 
 public class EliminacionGaussiana {
 
@@ -86,4 +100,10 @@ public class EliminacionGaussiana {
     }
     
 }
+
+Respuesta por código:
+
+Solucion:
+[1.0, -1.0, 1.0]
+
 
