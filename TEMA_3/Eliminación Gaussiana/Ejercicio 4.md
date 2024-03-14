@@ -1,33 +1,25 @@
 Ejercicio 4: Resuleve la siguiente ecuación
-   
-  |  3x -  y +  2z  = 5
---|  -x - 4y +  2z  = 11
-  |  2x + 3y +  2z  = 12
+
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/8ea8f055-131c-4c7d-99a9-a1ad71bd39b6)
+
 
 Resultado: 
 
-x = 1
-y = 2
-z = 2
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/c2b87f4a-dde8-493c-ab32-a646edf50b1e)
 
 
 Resueltado por código en JAVA:
 
-import java.util.Arrays;
-
-
-public class EliminacionGaussiana {
-
     public static void main(String[] args) {
         
          // PASO 1: Definir nuestra matriz o nuestro vector
-        double[][] A = {{3,-1,2},
-                        {-1,4,2},
-                        {2,3,2}};
+        double[][] A = {{5,2,0},
+                        {2,1,-1},
+                        {2,3,-1}};
         
-        double[][] B = {{5},
-                        {11},
-                        {12}};
+        double[][] B = {{2},
+                        {0},
+                        {3}};
         
         // Copiamos las matrices originales y las hacemos de tipo flotante
         double[][] A_copy = new double[A.length][A[0].length];
@@ -99,9 +91,9 @@ public class EliminacionGaussiana {
         
     }
     
-}
+
 
 Respuesta por código:
 
-Solucion:
-[0.9999999999999996, 1.9999999999999998, 2.0000000000000004]
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/c8e53fdc-c7f6-4b4d-8436-94fa5f170965)
+
