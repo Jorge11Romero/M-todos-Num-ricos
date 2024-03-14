@@ -1,4 +1,4 @@
-Ejercicio 1: Resuleve la siguiente ecuación
+Ejercicio 3: Resuleve la siguiente ecuación
 
 ![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/1cf11f74-3ef6-4983-986b-0072eb64c349)
 
