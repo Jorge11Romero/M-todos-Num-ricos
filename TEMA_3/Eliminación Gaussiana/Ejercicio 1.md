@@ -1,22 +1,14 @@
 Ejercicio 1: Resuleve la siguiente ecuación
    
-  |   x + 2y +   z  = 0
---|   x +    +   z  = 2
-  |     +  y    2z  = 1
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/9bc81324-1318-4d3f-a688-6c2692eba0a3)
+
 
 Resultado: 
 
-x = 1
-y = -1
-z = 1 
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/ef4ea85d-bbd1-4586-a513-d60e2af43c08)
 
 
 Resueltado por código en JAVA:
-
-import java.util.Arrays;
-
-
-public class EliminacionGaussiana {
 
     public static void main(String[] args) {
         
@@ -103,7 +95,8 @@ public class EliminacionGaussiana {
 
 Respuesta por código:
 
-Solucion:
-[1.0, -1.0, 1.0]
+
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/d655a6dc-8f4a-41c5-94f1-0cea68d16a68)
+
 
 
