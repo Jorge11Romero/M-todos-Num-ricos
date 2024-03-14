@@ -1,14 +1,14 @@
 Ejercicio 4: Resuleve la siguiente ecuación
    
-  |  5x + 2y +      = 2
---|  2x +  y -   z  = 0
-  |  2x + 3y -   z  = 3
+  |  3x -  y +  2z  = 5
+--|  -x - 4y +  2z  = 11
+  |  2x + 3y +  2z  = 12
 
 Resultado: 
 
 x = 1
-y = -1
-z = 1
+y = 2
+z = 2
 
 
 Resueltado por código en JAVA:
@@ -21,13 +21,13 @@ public class EliminacionGaussiana {
     public static void main(String[] args) {
         
          // PASO 1: Definir nuestra matriz o nuestro vector
-        double[][] A = {{5,2,0},
-                        {2,1,1},
-                        {2,3,1}};
+        double[][] A = {{3,-1,2},
+                        {-1,4,2},
+                        {2,3,2}};
         
-        double[][] B = {{2},
-                        {0},
-                        {3}};
+        double[][] B = {{5},
+                        {11},
+                        {12}};
         
         // Copiamos las matrices originales y las hacemos de tipo flotante
         double[][] A_copy = new double[A.length][A[0].length];
@@ -104,4 +104,4 @@ public class EliminacionGaussiana {
 Respuesta por código:
 
 Solucion:
-[-0.19999999999999962, 1.4999999999999991, -1.0999999999999999]
+[0.9999999999999996, 1.9999999999999998, 2.0000000000000004]
