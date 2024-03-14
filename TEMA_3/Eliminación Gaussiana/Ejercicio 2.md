@@ -1,24 +1,19 @@
 Ejercicio 2: Resuleve la siguiente ecuación
    
-  |  2x -  y +  3z  = 5
---|  2x + 2y +  3z  = 7
-  | -2x + 3y        = -3
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/9bc81324-1318-4d3f-a688-6c2692eba0a3)
 
 Resultado: 
 
-x = 5/2
-y = 2/3
-z = 2/9 
-
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/ef4ea85d-bbd1-4586-a513-d60e2af43c08)
 
 Resueltado por código en JAVA:
 
 import java.util.Arrays;
 
 
-public class EliminacionGaussiana {
+      public class EliminacionGaussiana {
 
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         
          // PASO 1: Definir nuestra matriz o nuestro vector
         double[][] A = {{2,-1,3},
@@ -99,7 +94,7 @@ public class EliminacionGaussiana {
         
     }
     
-}
+   }
 
 Respuesta por código:
 
