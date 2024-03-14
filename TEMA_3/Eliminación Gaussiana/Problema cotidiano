@@ -1,0 +1,7 @@
+Ejemplo: Resolución de circuitos eléctricos
+
+Imagina que estás trabajando en el diseño y análisis de un circuito eléctrico complejo. 
+Para calcular las corrientes y tensiones en cada componente del circuito, necesitas resolver un sistema de ecuaciones lineales 
+que represente las leyes fundamentales de la electricidad (ley de Ohm, leyes de Kirchhoff, etc.).
+
+Supongamos que tienes el siguiente sistema de ecuaciones lineales para un circuito eléctrico con tres componentes:
