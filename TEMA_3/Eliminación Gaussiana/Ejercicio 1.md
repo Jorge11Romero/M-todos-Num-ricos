@@ -1,11 +1,12 @@
 Ejercicio 1: Resuleve la siguiente ecuación
    
-![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/9bc81324-1318-4d3f-a688-6c2692eba0a3)
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/bf392539-2b9c-481f-acfe-af17f4151438)
+
 
 
 Resultado: 
 
-![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/ef4ea85d-bbd1-4586-a513-d60e2af43c08)
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/c9bdc91d-9732-4e61-8d3f-9edc08bc309b)
 
 
 Resueltado por código en JAVA:
