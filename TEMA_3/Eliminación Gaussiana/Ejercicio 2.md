@@ -8,21 +8,23 @@ Resultado:
 
 Resueltado por código en JAVA:
 
-import java.util.Arrays;
 
 
+      import java.util.Arrays;
+      
+      
       public class EliminacionGaussiana {
 
-       public static void main(String[] args) {
+     public static void main(String[] args) {
         
          // PASO 1: Definir nuestra matriz o nuestro vector
-        double[][] A = {{2,-1,3},
-                        {2,2,3},
-                        {-2,3,0}};
+        double[][] A = {{3,-1,2},
+                        {-1,4,2},
+                        {2,3,2}};
         
         double[][] B = {{5},
-                        {7},
-                        {-3}};
+                        {11},
+                        {12}};
         
         // Copiamos las matrices originales y las hacemos de tipo flotante
         double[][] A_copy = new double[A.length][A[0].length];
@@ -93,10 +95,8 @@ import java.util.Arrays;
         }
         
     }
-    
-   }
 
 Respuesta por código:
 
-Solucion:
-[2.5, 0.6666666666666666, 0.22222222222222224]
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/0aa44f0c-c38b-485c-8e18-5fcc856a3b4e)
+
