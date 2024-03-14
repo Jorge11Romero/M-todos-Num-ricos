@@ -2,7 +2,6 @@ Ejercicio 1:
 
 [![Ejercicio.png](https://i.postimg.cc/T27bjzqb/Ejercicio.png)](https://postimg.cc/8svsNnYk)
 
-
 import java.util.Arrays;
 
 public class EliminacionGaussiana {
