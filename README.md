@@ -8,4 +8,6 @@
 
 [- Ejercicio 3](TEMA_3/Eliminación%20Gaussiana/Ejercicio%203.md)
 
-[- Ejercicio 4](TEMA_3/Eliminación%20Gaussiana/Problema%20cotidiano.md)
+[- Ejercicio 4](TEMA_3/Eliminación%20Gaussiana/Ejercicio%203.md)
+
+[- Problema cotidiano](TEMA_3/Eliminación%20Gaussiana/Problema%20cotidiano.md)
