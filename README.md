@@ -48,11 +48,11 @@
 
 ## GAUSS-JORDAN
 
-[- Descirpción](TEMA_3/Eliminación%20Gaussiana/Código.md)
+[- Descirpción](TEMA_3/Gauss-Jordan/Descripción.md)
 
-[- Algoritmo](TEMA_3/Eliminación%20Gaussiana/Algoritmo.md)
+[- Algoritmo](TEMA_3/Gauss-Jordan/Algoritmo.md)
 
-[- Implementación](TEMA_3/Gauss-Jordan/Código.md)
+[- Implementación](TEMA_3/Gauss-Jordan/Implementación.md)
 
 [- Ejercicio 1](TEMA_3/Gauss-Jordan/Ejercicio%201.md)
 
@@ -65,11 +65,11 @@
 
 ## GAUSS-SEIDEL
 
-[- Descirpción](TEMA_3/Eliminación%20Gaussiana/Código.md)
+[- Descirpción](TEMA_3/Gauss-Seidel/Descipción.md)
 
-[- Algoritmo](TEMA_3/Eliminación%20Gaussiana/Algoritmo.md)
+[- Algoritmo](TEMA_3/Gauss-Seidel/Algoritmo.md)
 
-[- Implementación](TEMA_3/Gauss-Seidel/Código.md)
+[- Implementación](TEMA_3/Gauss-Seidel/Implementación.md)
 
 [- Ejercicio 1](TEMA_3/Gauss-Seidel/Ejercicio%201.md)
 
@@ -81,11 +81,11 @@
 
 ## MÉTODO JACOBI
 
-[- Descirpción](TEMA_3/Eliminación%20Gaussiana/Código.md)
+[- Descirpción](TEMA_3/Método%20Jacobi/Descripción.md)
 
-[- Algoritmo](TEMA_3/Eliminación%20Gaussiana/Algoritmo.md)
+[- Algoritmo](TEMA_3/Método%20Jacobi/Algoritmo.md)
 
-[- Implementación](TEMA_3/Método%20Jacobi/Código.md)
+[- Implementación](TEMA_3/Método%20Jacobi/Implementación.md)
 
 [- Ejercicio 1](TEMA_3/Método%20Jacobi/Ejercicio%201.md)
 
