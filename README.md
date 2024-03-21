@@ -30,7 +30,7 @@
 # TEMA 3
 ## ELIMINACIÓN GAUSSIANA
 
-[- Descirpción](TEMA_3/Eliminación%20Gaussiana/Código.md)
+[- Descirpción](TEMA_3/Eliminación%20Gaussiana/Descripción.md)
 
 [- Algoritmo](TEMA_3/Eliminación%20Gaussiana/Algoritmo.md)
 
