@@ -34,7 +34,7 @@
 
 [- Algoritmo](TEMA_3/Eliminación%20Gaussiana/Algoritmo.md)
 
-[- Implementación](TEMA_3/Eliminación%20Gaussiana/Código.md)
+[- Implementación](TEMA_3/Eliminación%20Gaussiana/Implementación.md)
 
 [- Ejercicio 1](TEMA_3/Eliminación%20Gaussiana/Ejercicio%201.md)
 
