@@ -1,8 +1,6 @@
-Un método iterativo con el cual se resuelve el sistema lineal Ax = b comienza
-con una aproximación inicial x
-(0)a la solución x y genera una sucesión de
-vectores x
-(k) que converge a x. Los métodos iterativos traen consigo un proceso
-que convierte el sistema Ax = b en otro equivalente de la forma x = Tx + c para
-alguna matriz fija T y un vector c. 
 
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/2067266e-6a27-4679-8a92-c6f77d112906)
+
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/76d07da4-83ac-4c70-ab72-6e297c50b5c4)
+
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/2abd81ab-72e7-4ae4-ae41-4d9d91654e40)
