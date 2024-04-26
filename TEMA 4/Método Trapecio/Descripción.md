@@ -17,3 +17,5 @@ El resultado del integral es la regla del trapecio:
 ![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/52af3f63-399a-48cd-89be-2cddae5386f4)
 
 Que se interpreta como la multiplicación entre la base y altura promedio de un trapecio. También se llega al resultando sumando las áreas de sus componentes: rectángulo y triángulo.
+
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/c803d46c-b59e-4600-b0f9-a24f86ff76c5)
