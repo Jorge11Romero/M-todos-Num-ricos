@@ -1,6 +1,7 @@
 Ejercicio 1: Resuelve el siguiente problema
 
-![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/26c531ac-9d0c-4367-8723-babb5bef736a)
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/5f5c2ad6-5330-4ba4-96c0-27edbc5b8048)
+
 
 Resultado para 4 tramos:
 
