@@ -1,4 +1,4 @@
-Ejercicio 1: Resuelve el siguiente problema
+Ejercicio 2: Resuelve el siguiente problema
 
 ![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/a68acccb-b607-4b96-9f1d-a4190326dac1)
 
