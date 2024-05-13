@@ -1,6 +1,6 @@
 Ejercicio 1: Resuleve la siguiente ecuación
    
-![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/bf392539-2b9c-481f-acfe-af17f4151438)
+
 
 
 
