@@ -1,21 +1,10 @@
-La integración numérica con la regla del trapecio usa un polinomio de primer grado como aproximación de f(x) entre los extremos a y b del intervalo.
 
-![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/da2b6b85-7ac6-4dbf-bcce-79a726b13703)
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/49202b63-33c1-4c6b-8ad8-826dbe71d0bb)
 
-Es la primera de las formulas cerradas de Newton-Cotes.
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/df72a021-6299-4a50-807a-f26fa4f83c6f)
 
-![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/2df29443-82e8-469b-a176-70bb80d1a2ca)
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/230b3200-78c6-4e68-a3c0-f4ae15aeccdc)
 
-Usando el rango entre [a,b] el polinomio se aproxima con una línea recta:
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/ce9365be-3acb-4d8d-a49a-3a143cadf95e)
 
-![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/625d7214-3d44-42df-b5c9-e54d78d6f452)
-
-El área bajo esta línea recta es una aproximación de la integral de f(x) entre los límites a y b.
-
-El resultado del integral es la regla del trapecio:
-
-![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/52af3f63-399a-48cd-89be-2cddae5386f4)
-
-Que se interpreta como la multiplicación entre la base y altura promedio de un trapecio. También se llega al resultando sumando las áreas de sus componentes: rectángulo y triángulo.
-
-![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/c803d46c-b59e-4600-b0f9-a24f86ff76c5)
+![image](https://github.com/Jorge11Romero/M-todos-Num-ricos/assets/147437900/b224557c-f28b-408a-b167-41938825dec8)
